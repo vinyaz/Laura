@@ -1,0 +1,190 @@
+
+
+body {
+	margin-top: -10px;	
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+  padding: auto;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #000000;
+}
+
+.header li {
+	font-weight: bold;
+}
+
+.header {
+  padding: 20px 0;
+  }
+
+a {
+	color: #000000;
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+#circle {
+	width: 500px;
+	height: 500px;
+	border: 2px #d3d3d3 solid;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+	margin: 10px auto 20px auto;
+}
+
+.menu h1 {
+	text-align: center;
+	margin-top: 13px;
+	font-size: 38px;
+	color: #000000;
+	letter-spacing: 2px;
+}
+
+#circle h1 {
+	position: relative;
+	right: 60px;
+	top: 40px;
+}
+
+#circle p {
+	position: relative;
+	right: 60px;
+	top: 50px;
+	color: #A7A6A4;
+	letter-spacing: 2px;
+}
+
+#circle h4 {
+	float: right;
+	position: relative;
+	top: 190px;
+	left: 170px;
+}
+
+
+.btn a {
+	color: #909497;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+.btn a:before {
+	content:"";
+  position: absolute;
+   margin-left: 278px;
+  width: 72px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #909497;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.btn a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#btn-measure {
+	margin-top: 25px;
+}
+
+.project-left .container {
+	width: auto;
+    height: 340px;  
+    border-top: 1px solid #000000;
+    margin-top: 45px;
+}
+
+.project-left img {
+	width: 400px;
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 2px solid #000000;
+}
+
+.project-left h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.project-left h4 {
+	text-align: center;
+	margin-top: auto;
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+.project-left h3 {
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+}
+
+.project-left p {
+	text-align: justify;
+    text-justify: inter-word;
+    margin-top: 45px;
+    font-family: "Arial", Gadget, sans-serif;
+    position: relative;
+	margin-top: 15px;
+}
+
+.project-right .container {
+	width: auto;
+    height: 340px;  
+    border-top: 1px solid #000000;
+    margin-top: 45px;
+}
+
+.project-right img {
+	width: 400px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	border: 2px solid #000000;
+}
+
+.project-right h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.project-right h4 {
+	text-align: center;
+	margin-top: auto;
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+.project-right h3 {
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+}
+
+.project-right p {
+	text-align: justify;
+    text-justify: inter-word;
+    margin-top: 45px;
+    font-family: "Arial", Gadget, sans-serif;
+    position: relative;
+	margin-top: 15px;
+}
+

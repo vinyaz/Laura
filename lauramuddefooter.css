@@ -1,0 +1,28 @@
+.footer .container {
+	width: auto;
+    height: 80px;  
+    margin-top: 60px;
+    background-color: #000000;
+}
+
+.footer p {
+	color: #ffffff;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 12px;
+	margin-top: 35px;
+}
+
+.footer li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+}
+
+.footer ul {
+	float: right;
+	margin-top: 15px;
+}
+
+.footer img {
+	max-width: 150px;
+	max-height: 45px;
+}
