@@ -18,18 +18,21 @@
 .project-left h2 {
 	text-align: center;
 	margin-top: 40px;
+	margin-left: 40px;
 }
 
 .project-left h4 {
 	text-align: center;
 	margin-top: auto;
 	font-family: "Arial", Gadget, sans-serif;
+	margin-left: 40px;
 }
 
 .project-left h3 {
 	text-align: center;
 	position: relative;
 	margin-top: 10px;
+	margin-left: 40px;
 }
 
 .project-left p {
@@ -39,4 +42,45 @@
     font-family: "Arial", Gadget, sans-serif;
     position: relative;
 	margin-top: 15px;
+	margin-left: 40px;
 }
+
+.btn-left a {
+	color: #909497;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+.btn-left a:before {
+	content:"";
+  position: absolute;
+  margin-left: 285px;
+  width: 80px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #909497;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-left a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#btn-measure {
+	margin-top: 25px;
+}
+

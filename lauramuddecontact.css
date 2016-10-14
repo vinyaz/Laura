@@ -21,6 +21,11 @@ a {
 	font-family: "Arial", Gadget, sans-serif;
 }
 
+a:hover { 
+    color: #000000;
+   font-weight: bold;
+}
+
 #circle {
 	width: 500px;
 	height: 500px;
@@ -72,8 +77,3 @@ a {
 .header {
   padding: 20px 0;
   }
-
-a {
-	color: #000000;
-	font-family: "Arial", Gadget, sans-serif;
-}

@@ -18,26 +18,68 @@
 .project-right h2 {
 	text-align: center;
 	margin-top: 40px;
+	margin-right: 40px;
 }
 
 .project-right h4 {
 	text-align: center;
 	margin-top: auto;
 	font-family: "Arial", Gadget, sans-serif;
+	margin-right: 40px;
 }
 
 .project-right h3 {
 	text-align: center;
 	position: relative;
 	margin-top: 10px;
+	margin-right: 40px;
 }
 
 .project-right p {
 	text-align: justify;
     text-justify: inter-word;
-    margin-top: 45px;
     font-family: "Arial", Gadget, sans-serif;
     position: relative;
 	margin-top: 15px;
+	margin-right: 40px;
+}
+
+.btn-right a {
+	color: #909497;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+.btn-right a:before {
+	content:"";
+  position: absolute;
+  margin-left: 235px;
+  width: 80px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #909497;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-right a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#btn-measure {
+	margin-top: 25px;
 }
 
